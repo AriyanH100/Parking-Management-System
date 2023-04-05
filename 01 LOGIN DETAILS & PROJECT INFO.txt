@@ -1,13 +1,19 @@
-**Log on to codeastro.com for more projects!**
-
-**Database Name: parkigniter**
-
-**Developed by Rahmat Subandi**
-
-**Recommended PHP Version 5.6 or Newer**
-
-
 **Admin Login Details** 
 
+Admin:
 Email	: admin@gmail.com
 Password: Password@123
+
+Manager:
+Email   : manager@gmail.com
+Password: Password@123
+
+Security:
+Email   : security@gmail.com
+Password: Password@123
+
+Parking Lot Attendant:
+Email   : attendant@gmail.com
+Password: Password@123
+
+
