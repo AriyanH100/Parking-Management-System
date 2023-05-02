@@ -1,3 +1,4 @@
+<?date_default_timezone_set("Asia/Dhaka");?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <!-- Content Header (Page header) -->

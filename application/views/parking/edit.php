@@ -1,3 +1,4 @@
+<?date_default_timezone_set("Asia/Dhaka");?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <!-- Content Header (Page header) -->
@@ -111,6 +112,7 @@
           <form action="<?php echo base_url('parking/updatepayment/') ?>" method="post">
             <div class="box-body">
               <?php $date = strtotime('now', strtotime('Asia/Dhaka')); ?>
+              <?php $date = strtotime('-4 hours', $date); ?>
               <div class="form-group">
                 <label for="">Check-Out Date : <?php echo date('Y-m-d', $date); ?></label> <br />
                 <label for="">Check-Out Time : <?php echo date('h:i a', $date); ?></label>

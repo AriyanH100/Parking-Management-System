@@ -64,7 +64,7 @@ class Model_parking extends CI_Model
 				$checkout_time = strtotime('now', strtotime('Asia/Dhaka'));
 
 				// calculates the time by hourly
-				$total_time = ceil((abs($checkout_time - $check_in_time) / 60) / 60);
+				$total_time = (ceil((abs($checkout_time - $check_in_time) / 60) / 60));
 
 
 				$rate_data = $this->model_rates->getRateData($rate_id);

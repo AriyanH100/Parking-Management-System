@@ -1,3 +1,4 @@
+<?date_default_timezone_set("Asia/Dhaka");?>
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
   <!-- Content Header (Page header) -->
@@ -79,6 +80,7 @@
                         if ($v['parking']['out_time'] == '') {
                           echo "-";
                         } else {
+                          date_default_timezone_set("Asia/Dhaka");
                           $date = date('Y-m-d', $v['parking']['out_time']);
                           $time = date('h:i:s', $v['parking']['out_time']);
 

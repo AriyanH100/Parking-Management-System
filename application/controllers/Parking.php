@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set("Asia/Dhaka");
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Parking extends Admin_Controller 
